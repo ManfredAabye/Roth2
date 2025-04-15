@@ -2,72 +2,59 @@
 
 # Roth2 Mesh Avatar Project
 
-Roth2 is a low-poly mesh body specifically designed for OpenSimulator. It is built to use standard Second Life(TM) UV maps using scratch-built open source mesh by Shin Ingen, Ada Radius and other contributors from the OpenSimulator Community.
+Roth2 ist ein Low-Poly-Mesh-Körper, der speziell für OpenSimulator entwickelt wurde. Er wurde gebaut, um Standard-Second-Life(TM)-UV-Maps zu nutzen, basierend auf von Grund auf erstelltem Open-Source-Mesh von Shin Ingen, Ada Radius und weiteren Beitragenden aus der OpenSimulator-Community.
 
-* Github Repository: https://github.com/RuthAndRoth/Roth2
-* Discord Discussion Channel: https://discordapp.com/channels/619919380154810380/619919380691550240
-* Discord Discussion Channel Invitation (open to all): https://discord.gg/UMyaZkc
-* MeWe Community Page: https://mewe.com/group/5bbe0189a5f4e57c73569fb9
-* Second Life Groups: "RuthAndRoth" and "Ruth and Roth Community"
-* Second Life Marketplace - RuthAndRoth:  https://marketplace.secondlife.com/stores/228512
-* OpenSim Group: OSGrid RuthAndRoth
+* Github-Repository: https://github.com/RuthAndRoth/Roth2
+* Discord-Diskussionskanal: https://discordapp.com/channels/619919380154810380/619919380691550240
+* Einladung zum Discord-Diskussionskanal (offen für alle): https://discord.gg/UMyaZkc
+* MeWe-Community-Seite: https://mewe.com/group/5bbe0189a5f4e57c73569fb9
+* Second Life Gruppen: "RuthAndRoth" und "Ruth and Roth Community"
+* Second Life Marketplace – RuthAndRoth: https://marketplace.secondlife.com/stores/228512
+* OpenSim Gruppe: OSGrid RuthAndRoth
 * OpenSim Region: OSGrid RuthAndRoth hop://login.osgrid.org/RuthAndRoth/128/128/26
-* OpenSim Kitely Market - RuthAndRoth: https://www.kitely.com/market/store/55043173/RuthAndRoth
+* OpenSim Kitely Market – RuthAndRoth: https://www.kitely.com/market/store/55043173/RuthAndRoth
 
 ## Bakes on Mesh
 
-Roth2 v2 is a single layer mesh that is designed to work well with Bakes on Mesh.  It still has a simplified alpha capability and skin textures may be applied, but in Bakes on Mesh mode system layer alpha masks can be worn to give more control over hidden areas.
+Roth2 v2 ist ein einlagiges Mesh, das speziell für die Nutzung mit Bakes on Mesh konzipiert ist. Es besitzt weiterhin eine vereinfachte Alpha-Funktion und Hauttexturen können angewendet werden, aber im Bakes-on-Mesh-Modus können System-Layer-Alpha-Masken getragen werden, um mehr Kontrolle über verdeckte Bereiche zu ermöglichen.
 
-## Current Release
+## Aktuelle Version
 
-Roth2 v2 prepared on 2020-05-24 is the current release.
+Roth2 v2, vorbereitet am 24.05.2020, ist die aktuelle Version.
 
-## Previous Release
+## Vorherige Version
 
-Previous releases of Roth2 may be found in the old Ruth repo on Github and
-in a number of places both in Second Life and OSGrid as listed above.
+Frühere Versionen von Roth2 finden sich im alten Ruth-Repository auf Github und an verschiedenen Orten sowohl in Second Life als auch in OSGrid, wie oben aufgeführt.
 
-What was formerly called Roth 2.0 RC#1 is now referred to as Roth2 v1 in the current version naming scheme.
+Was früher als Roth 2.0 RC#1 bezeichnet wurde, wird im aktuellen Versionsschema nun als Roth2 v1 geführt.
 
-## Contrib (Personal) Directories
+## Contrib (Persönliche) Verzeichnisse
 
-We have personal directories under the top-level 'Contrib' directory as a place for
-team members to put things that are still under development before (or until)
-they are merged into the master release directories.
+Unter dem Top-Level-Verzeichnis 'Contrib' befinden sich persönliche Verzeichnisse als Ablage für Teammitglieder, um Dinge zu speichern, die sich noch in der Entwicklung befinden, bevor (oder bis) sie in die Hauptverzeichnisse der Veröffentlichung übernommen werden.
 
-## Upload Collada (.dae)
+## Hochladen von Collada (.dae)
 
-Since not everyone is set up to perform Blender exports to get the Collada
-files for uploading we maintain recent exported .dae files in the Mesh directory.
+Da nicht jeder eingerichtet ist, um Blender-Exporte für das Erstellen von Collada-Dateien (.dae) durchzuführen, pflegen wir im Mesh-Verzeichnis aktuelle exportierte .dae-Dateien.
 
-## Other Artifacts
+## Weitere Artefakte
 
-There is also an OpenSim IAR file that can be used to pre-load OpenSim grids.
-These are usually updated at releases. They will help maintain consistent UUIDs
-for the assets to minimize duplication when meshes and related assets are used
-in world.
+Es gibt auch eine OpenSim-IAR-Datei, die zum Vorladen von OpenSim-Grids genutzt werden kann. Diese werden in der Regel bei neuen Versionen aktualisiert. Sie helfen dabei, konsistente UUIDs für die Assets beizubehalten, um Duplikate zu minimieren, wenn Meshes und zugehörige Assets in der virtuellen Welt verwendet werden.
 
-## Licenses
+## Lizenzen
 
-Roth2 is AGPL licensed, other contents of this repository are also
-AGPL licensed unless otherwise indicated.  See LICENSE.md for specific details.
+Roth2 ist unter der AGPL-Lizenz lizenziert, andere Inhalte dieses Repositories sind ebenfalls AGPL-lizenziert, sofern nicht anders angegeben. Siehe LICENSE.md für spezifische Details.
 
-## Changes from Roth2 v1
+## Änderungen gegenüber Roth2 v1
 
-The Ruth2 and Roth2 repositories have been extracted from the original Ruth 2.0
-repo, retaining all Git history of the files that have been moved.  Some common
-files will be moved later to a common repo.  Below is the list of changes for the
-files present in this repo:
+Die Ruth2- und Roth2-Repositories wurden aus dem ursprünglichen Ruth 2.0-Repository extrahiert, wobei die gesamte Git-Historie der verschobenen Dateien erhalten geblieben ist. Einige gemeinsame Dateien werden später in ein gemeinsames Repository verschoben. Nachfolgend die Liste der Änderungen für die Dateien, die sich in diesem Repository befinden:
 
-* Licenses.txt -> LICENSE.md
-* Mesh/Avatar Roth/IARs -> Artifacts/IAR
-* Mesh/Avatar Roth/Scripts -> Scripts
-* Mesh/Avatar Roth/Textures -> Textures
+* Licenses.txt -> LICENSE.md  
+* Mesh/Avatar Roth/IARs -> Artifacts/IAR  
+* Mesh/Avatar Roth/Scripts -> Scripts  
+* Mesh/Avatar Roth/Textures -> Textures  
 
-## Reference Files
+## Referenzdateien
 
-The original Ruth repo contained a number of reference files archived from
-various places around the Internet.  Some of those have become hard to find
-due to link rot and sites vanishing.
+Das ursprüngliche Ruth-Repository enthielt eine Reihe von Referenzdateien, die aus verschiedenen Quellen im Internet archiviert wurden. Einige davon sind aufgrund von "Link-Rot" und dem Verschwinden von Webseiten schwer auffindbar geworden.
 
-Those archived files are now in their own repo https://github.com/RuthAndRoth/Reference.
+Diese archivierten Dateien befinden sich jetzt in einem eigenen Repository: https://github.com/RuthAndRoth/Reference.
